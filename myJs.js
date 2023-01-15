@@ -11,3 +11,5 @@ const myArray = ['Abhinav','Arun','Satyam','Lakshay'];
 console.log(myArray);
 myArray.push('lucky');
 console.log(myArray);
+myArray.unshift('Pankaj')
+console.log(myArray);
