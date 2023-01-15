@@ -2,11 +2,18 @@
 <html>
     <head>
         <script src="myJs.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h2>Learning Javascript</h2>
-        <p id="demo">Learn and Evolve</p>
-        <button type="button" onclick="myFunction()">Button</button>
-        <button type="button" onclick="document.write('Abhinav')">Try it</button>
+        <div class="main">
+            <h2>Learning Javascript</h2>
+            <p id="sub_header">Learn and Evolve</p>
+            <div>
+                <button class="btn" id="html_id" type="button" onclick="myFunction()">HTML</button>
+                <button class="btn" type="button" onclick="alert('I will win not immediately, but Definitely.')">Try it</button>
+                <button class="btn" onclick="window.print()">Print</button>
+            </div>
+            <!-- <script>window.alert("Hello,Abhinav")</script> -->
+        </div>
     </body>
 </html>

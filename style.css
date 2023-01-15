@@ -1,0 +1,18 @@
+body{
+    background-color: lightslategray;
+}
+.main{
+    text-align: center !important;
+    color: white;
+}
+.btn{
+    height: 3rem;
+    width: 5rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+#sub_header{
+    font-size: 2rem;
+}
