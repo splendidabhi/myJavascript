@@ -9,7 +9,12 @@ console.log(a+b+c);
 
 const myArray = ['Abhinav','Arun','Satyam','Lakshay'];
 console.log(myArray);
-myArray.push('lucky');
+myArray.push('lucky'); //add element to last
 console.log(myArray);
-myArray.unshift('Pankaj')
+myArray.unshift('Pankaj') //add element to beginning
 console.log(myArray);
+myArray.pop();
+console.log(myArray);
+myArray.shift();
+console.log(myArray);
+console.log(myArray.indexOf('Abhinav')) 
