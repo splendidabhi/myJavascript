@@ -1,5 +1,5 @@
 function myFunction(){
-    document.getElementById("sub_header").innerHTML="good ,Javascript is awesome .";
+    document.getElementById("sub_header").innerHTML="Good ,Javascript is awesome .";
 }
 let a,b,c;
 a=5;
