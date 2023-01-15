@@ -1,2 +1,1 @@
-# myJavascript
-# myJavascript
+Learning Javascript
