@@ -7,7 +7,8 @@ body{
 }
 .btn{
     height: 3rem;
-    width: 5rem;
+    min-width: 5rem;
+    width: auto;
     background-color: green;
     color: white;
     border-radius: 10px;
