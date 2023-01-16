@@ -1,6 +1,10 @@
 function myFunction(){
     document.getElementById("sub_header").innerHTML=Date();
 }
+function displayDate() {
+    document.getElementById("footer_content").innerHTML = Date();
+}
+
 let a,b,c;
 a=5;
 b=10;
