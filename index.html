@@ -16,6 +16,16 @@
                 <button class="btn" onclick="this.innerHTML=Date()">The time is?</button>
                 <button class="btn" onclick="displayDate()">New Time</button>
             </div>
+                <h2>The slice() Method</h2>
+
+                <p>The sliced (extracted) part of the string is:</p>
+                <p id="demo"></p>
+
+                <script>
+                let text = "Apple, Banana, Kiwi";
+                let part = text.slice(7,13);
+                document.getElementById("demo").innerHTML = part; 
+                </script>
             <!-- <script>window.alert("Hello,Abhinav")</script> -->
             <blockquote id="quote">"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." – Martin Fowler</blockquote>
         </div>
