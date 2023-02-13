@@ -38,7 +38,7 @@ console.log(tips);
 //objects
 const jonas ={
     firstName:'abhinav',
-    secondName:'yadav',
+    lastName:'yadav',
     age:20,
     job:'softare Engineer',
     friends:['arun','yadav','aakash']
@@ -46,3 +46,9 @@ const jonas ={
 };
 
 console.log(jonas);
+console.log(jonas['firstName']);
+console.log(jonas.lastName);
+
+const interestedin = prompt('what are you interested in firstname,lastname,age,job,friends');
+
+console.log(jonas[interestedin]);
