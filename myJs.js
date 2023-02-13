@@ -56,3 +56,8 @@ console.log(jonas[interestedin]);
 jonas.location = 'noida';
 jonas['twitter'] = 'splendidabhi';
 console.log(jonas);
+if (jonas[interestedin]) {
+    alert(jonas[interestedin])
+}else{
+    alert('Choose ri ght option')
+}
