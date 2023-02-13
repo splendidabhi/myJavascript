@@ -4,6 +4,16 @@ function myFunction(){
 function displayDate() {
     document.getElementById("footer_content").innerHTML = Date();
 }
+function calctip(bill){
+    if (bill>50 && bill<500){
+        return bill*0.15;
+    }
+    else
+    return bill*.20;
+}
+const bills= [125,555,44];
+
+const tips= [calctip(bills[0]),calctip(bills[1]),calctip(bills[2])];
 
 let a,b,c;
 a=5;
@@ -22,3 +32,5 @@ console.log(myArray);
 myArray.shift();
 console.log(myArray);
 console.log(myArray.indexOf('Abhinav')) 
+
+console.log(tips);
