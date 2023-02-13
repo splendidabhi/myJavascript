@@ -34,3 +34,13 @@ console.log(myArray);
 console.log(myArray.indexOf('Abhinav')) 
 
 console.log(tips);
+
+//objects
+const jons ={
+    firstName:'abhinav',
+    secondName:'yadav',
+    age:20,
+    job:'softare Engineer',
+    friends:['arun','yadav','aakash']
+
+};
