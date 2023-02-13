@@ -45,10 +45,14 @@ const jonas ={
 
 };
 
-console.log(jonas);
+
 console.log(jonas['firstName']);
 console.log(jonas.lastName);
 
 const interestedin = prompt('what are you interested in firstname,lastname,age,job,friends');
 
 console.log(jonas[interestedin]);
+
+jonas.location = 'noida';
+jonas['twitter'] = 'splendidabhi';
+console.log(jonas);
